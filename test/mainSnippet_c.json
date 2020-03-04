@@ -1,0 +1,9 @@
+{
+    "title":"main",
+    "keywords":"basic main", 
+    "description":"basic main skeleton",
+    "specification":"c++",
+    "code":"int main() \n{\n\t\\\\your code here\n\treturn 0;\n}\n",
+    "user_name":"laizl",
+    "date":"2019-4-5"
+}

@@ -1,0 +1,24 @@
+@value largeBP, mediumBP, smallBP from 'SharedStyles/globalStyles';
+
+/**
+ * application layout styles
+ */
+.constraintWidth {
+  margin: 0px auto;
+  width: 60%;
+}
+
+.primaryContent { flex: 1; }
+
+.secondaryContent {
+  width: 260px;
+
+  @media mediumBP { display: none; }
+  @media smallBP { display: none; }
+}
+
+.showOnMediumBP {
+  display: none;
+  @media mediumBP { display: inherit; }
+  @media smallBP { display: inherit; }
+}

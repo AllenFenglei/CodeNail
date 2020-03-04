@@ -1,0 +1,103 @@
+@value primaryFontColor, secondaryFontColor, borderColor, backShade from 'SharedStyles/globalStyles';
+
+.pageTitle {
+    margin: 100px 0px 30px 0px;
+    color: #282c34;
+    font-size: 35px;
+    font-width: 1100;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 15px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.title {
+    width: 50%;
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-bottom: 1px solid borderColor;
+    &:focus {
+        outline: none;
+    }
+}
+
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    height: 120px;
+    color: #282c34;
+    border: 1px solid borderColor;
+    border-radius: 10px;
+    &:focus {
+        outline: none;
+    }
+}
+
+.termContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+
+.term {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.keywords {
+    font-size: 18px;
+    color: #282c34;
+    border: none;
+    border-bottom: 1px solid borderColor;
+    width: 60%;
+    &:focus {
+        outline: none;
+    }
+}
+
+.language {
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: #282c34;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid borderColor;
+    &:focus {
+        outline: none;
+    }
+}
+
+.code {
+    font-family: '"Fira code", "Fira Mono", monospace';
+    height: 300px;
+    border: 1px solid borderColor;
+    border-radius: 5px;
+    &:focus {
+        outline: none;
+    }
+}
+
+.post {
+    background: #3498db;
+    border-radius: 2px;
+    margin: 5px auto;
+    width: 20%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s;
+    &:hover {
+        color: #b6def9;
+    }
+}
+

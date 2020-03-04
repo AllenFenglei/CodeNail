@@ -1,0 +1,141 @@
+@value backShade, primaryFontColor, secondaryFontColor, borderColor from 'SharedStyles/globalStyles.css';
+
+.container {
+  position: relative;
+  display: block;
+  border: 1px solid borderColor;
+  padding-top: 70px;
+}
+
+.header {
+  border-bottom: 1px solid borderColor;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 28px;
+  font-color: #ececec;
+  align-items: center;
+  justify-content: space-between;
+  background-color: backShade;
+}
+
+.title {
+  padding-left: 10px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.postLink {
+  text-decoration: none;
+}
+
+.postLink:link {
+  color: #003d99;
+}
+
+.postLink:visited {
+  color: #003d99;
+}
+
+.postLink:hover {
+  color: #6699ff;
+}
+
+.userName {
+  padding-left: 11px;
+  font-weight: 500;
+  font-size: 14px;
+  font-color: #a6a6a6;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid borderColor;
+  &:last-child {border-bottom:none;};
+}
+
+.post:hover {
+  background-color: #e6f5ff;
+}
+
+.keywords{
+  padding-left: 11px;
+}
+
+.keyword{
+  display: inline-block;
+  padding: 1px 2px 1px 2px;
+  margin: 3px;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+}
+
+.date{
+  display: inline-block;
+  float:right;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.navigationBtn {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.subMenu {
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.textBox {
+  margin: 13px 15%;
+  padding: 10px 0px 5px 0px;
+  font-size: 18px;
+  font-weight: 300;
+  color: primaryFontColor;
+  border: none;
+  border-bottom: 1px solid borderColor;
+  &:focus {
+      outline: none;
+  }
+}
+
+.loginBottun {
+  margin-top: 3px;
+  border-top: 1px solid borderColor;
+  background-color: #f9f9f9;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 20px 0px;
+  width: 100%;
+  color: primaryFontColor;
+}
+
+.errMsg {
+  margin: 10px 0px 5px 0px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 100%;
+  text-align: center;
+  color: #ff0000;
+}
+

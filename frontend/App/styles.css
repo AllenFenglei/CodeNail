@@ -1,0 +1,38 @@
+/**
+ * Application container stylings
+ */
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.loadingWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gitForkTag {
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+
+  background-color: #f9f9f9;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+
+  padding: 5px 50px;
+  transform: rotate(-45deg) translateY(-5px) translateX(54px);
+
+  z-index: 1;
+}
+
+.gitLink {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,21 @@
+
+.headerBar {
+    height: 50px;
+    background-color: #20232a;
+    color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 60px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: auto 0px;
+}
+

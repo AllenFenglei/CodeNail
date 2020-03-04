@@ -1,0 +1,106 @@
+@value primaryFontColor, secondaryFontColor, borderColor from 'SharedStyles/globalStyles.css';
+
+.container {
+  position: relative;
+  display: block;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  cursor: pointer;
+}
+
+.userContainer.hover .logoutBottun {display: block}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.navigationBtn {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  flex-flow: row nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.userNameBtn {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 17px;
+  font-weight: 700;
+  flex-flow: row nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.subMenu {
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+  z-index: 1;
+  flex-direction: column;
+  height: auto;
+}
+
+.textBox {
+  margin: 13px 15%;
+  padding: 10px 0px 5px 0px;
+  font-size: 18px;
+  font-weight: 300;
+  color: primaryFontColor;
+  border: none;
+  border-bottom: 1px solid borderColor;
+  &:focus {
+      outline: none;
+  }
+}
+
+.loginBottun {
+
+  margin-top: 3px;
+  border-top: 1px solid borderColor;
+  background-color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 20px 0px;
+  width: 100%;
+  color: primaryFontColor;
+}
+
+.logoutBottun {
+  border: 1px solid borderColor;
+  background-color: #f9f9f9;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0px;
+  width: 100%;
+  color: primaryFontColor;
+}
+
+
+.errMsg {
+  margin: 10px 0px 5px 0px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 100%;
+  text-align: center;
+  color: #ff0000;
+}
+

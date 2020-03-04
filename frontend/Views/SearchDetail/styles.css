@@ -1,0 +1,190 @@
+@value primaryFontColor, secondaryFontColor, borderColor from 'SharedStyles/globalStyles.css';
+
+.container {
+  position: relative;
+  display: block;
+  padding: 70px 20%;
+  padding-left: 10%;
+  margin-left: 10%;
+  border: 1px solid borderColor;
+  width: 80%;
+}
+
+.postTitle{
+  font-size: 28px;
+  color: #373c49;
+  padding: 3px;
+  padding-left: 0px;
+  border-bottom: 2px solid #61dafb;
+}
+
+.titleBar {
+  border-radius: 3px;
+}
+
+
+.keywords {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.keyword{
+  display: inline-block;
+  padding: 1px 2px 1px 2px;
+  margin: 3px;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+}
+
+.descriptionBar {
+  padding-left: 10px;
+}
+
+.codeBar {
+  padding-left: 10px;
+}
+
+.dateBar {
+  display: inline-block;
+  float:right;
+}
+
+.description {
+  padding-left: 20px;
+  font-size: 20px;
+  white-space: pre-line;
+}
+
+.codes {
+  font-size: 18px;
+  font-family: monospace;
+  background-color: #e6f7ff;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 20px;
+  white-space: pre;
+  tab-size: 4;
+}
+
+.lastLine {
+  margin-top: 20px;
+}
+
+.userName {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+ul {
+  width: 70%;
+  border: 1px solid #cce5ff;
+}
+
+li{
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 2px;
+  border-bottom: 1px solid #cce5ff;
+}
+
+.comments {
+  padding-left: 10px;
+  width: 90%;
+  border-top: 1px solid #cce5ff;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+.comment {
+  background: #f2f2f2;
+  font-size: 18px;
+  padding: 2px;
+  border-bottom: 1px solid #cce5ff;
+  margin: 1px;
+}
+
+.commentBar {
+  padding-left: 10px;
+}
+
+.commentOwner {
+  display: inline-block;
+  width: 20%;
+  border-right: 1px solid #cce5ff;
+  font-weight: 700;
+}
+
+.commentContent {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.navigationBtn {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.subMenu {
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.codes {
+  background-color: 
+}
+
+.textBox {
+  float: left;
+  display: flex;
+  width: 90%;
+  box-sizing: content-box;
+  margin: 13px 3%;
+  padding: 10px 5px 5px 5px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: white;
+  border: 1px solid #03a9f4;
+  border-radius: 6px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.loginBottun {
+  margin-top: 15px;
+  /*border-top: 1px solid borderColor;*/
+  background-color: #20232a;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  color: #61dafb;
+  height: 80%;
+  border-radius: 8px;
+  display: flex;
+}
+
+.errMsg {
+  margin: 10px 0px 5px 0px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 100%;
+  text-align: center;
+  color: #ff0000;
+}
+

@@ -1,0 +1,94 @@
+@value primaryFontColor, secondaryFontColor, borderColor, backShade from 'SharedStyles/globalStyles';
+
+.background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #373a42;
+    justify-content: space-between;
+}
+
+.boxContainer {
+    padding: 10px 0px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+    min-width: 500px;
+    max-width: 680px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.title {
+    color: #61dafb;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.subTitle {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.boxTitle {
+  padding: 20px 0px;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.textBox {
+  margin: 15px 20%;
+  padding: 10px 0px 5px 0px;
+  font-size: 20px;
+  width: 70%;
+  font-weight: 300;
+  color: primaryFontColor;
+  border: none;
+  border-bottom: 1px solid borderColor;
+  &:focus {
+      outline: none;
+  }
+}
+
+.signUpBottun {
+    background: #3498db;
+    border-radius: 2px;
+    margin: 5px auto;
+    width: 20%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s;
+    &:hover {
+        color: #b6def9;
+    }
+}
+
+.errMsg {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ff0000;
+  margin: 10px auto 0px auto;
+  min-width: 320px;
+  max-width: 500px;
+}

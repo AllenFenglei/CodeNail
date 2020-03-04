@@ -1,0 +1,9 @@
+{
+    "title":"main",
+    "keywords":"main", 
+    "description":"basic main skeleton",
+    "specification":"python",
+    "code":"if __name__ == 'main':\n\t#your code here\n",
+    "user_name":"laizl",
+    "date":"2019-4-5"
+}

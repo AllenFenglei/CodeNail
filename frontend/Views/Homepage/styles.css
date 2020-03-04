@@ -1,0 +1,117 @@
+@value primaryFontColor, secondaryFontColor, borderColor, backShade from 'SharedStyles/globalStyles';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    background: #373a42;
+    justify-content: space-between;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.margin {
+    margin-top: 500px;
+}
+
+.title {
+    color: #61dafb;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 170px;
+}
+
+
+
+.signUpBottun {
+    background: #3498db;
+    border-radius: 2px;
+    margin: 5px auto;
+    width: 20%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s;
+    &:hover {
+        color: #b6def9;
+    }
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.searchBottun {
+    background: #3498db;
+    border-radius: 2px;
+    width: 150px;
+    margin: 0px 20px;
+    padding: 13px 25px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s;
+    &:hover {
+        color: #b6def9;
+    }
+}
+
+.textBox {
+  height: 60px;
+  min-width: 800px;
+  padding: 4px 4px 4px 35px;
+  background: transparent;
+  font-size: 23px;
+  font-weight: 300;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #090909;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.illusionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.illusionTextContainer {
+  display: block;
+  margin-left: 200px;
+}
+
+.illusionTitle {
+  color: #3d3d3d;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+
+.illusionPara {
+  color: #6d6d6d;
+  font-size: 20px;
+  font-weight: 300;
+  width: 600px;
+}
+
+.illusionImg {
+  width: 200px;
+  height: 200px;
+}

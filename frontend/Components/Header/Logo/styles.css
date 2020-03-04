@@ -1,0 +1,19 @@
+/* logo */
+.logoContainer {
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.logoTitle {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #61dafb;
+}

@@ -42,7 +42,7 @@
     "express-session": "^1.14.2",
     "help": "^3.0.2",
     "lodash": "^4.17.4",
-    "mongoose": "^4.7.4",
+    "mongoose": "^5.9.3",
     "morgan": "^1.7.0",
     "pkg-config": "^1.1.1",
     "react-ace": "^6.4.0",
